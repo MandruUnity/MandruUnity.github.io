@@ -49,6 +49,7 @@ p {
     text-transform: uppercase;
 }
 
+
 h3 a {
     text-decoration: none;
     text-transform: uppercase;
@@ -74,6 +75,21 @@ section {
     background-color: rgb(77, 77, 77);
 }
 
+section img {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    margin-top: 15px;
+    height: 100px;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+section img:hover {
+    opacity: 1;
+    height: 110px;
+}
+
 h1 {
     font-size: 40px;
     padding-left: 15px;
@@ -86,7 +102,6 @@ h3 {
     padding-right: 30px;
     margin-top: 10px;
     height: 100px;
-    color: rgb(155, 155, 155);
     font-size: 30px;
 }
 
@@ -94,7 +109,14 @@ section section img {
     padding-left: 15px;
     padding-top: 15px;
     height: 100px;
-    border-radius: 100px;
+    border-radius: 150%;
+    opacity: 0.75;
+    transition: height 1s;
+}
+
+section section img:hover {
+    opacity: 1;
+    height: 110px;
 }
 
 .socialmedia {
@@ -119,4 +141,8 @@ section section img {
 
 .socialmedianames h1:last-child {
     margin-left: 15px;
+}
+
+.software {
+    margin-top: 100px;
 }
